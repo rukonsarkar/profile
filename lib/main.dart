@@ -101,13 +101,14 @@ class HomeScreen extends StatelessWidget {
                   const SizedBox(
                     height: 10,
                   ),
-                  const Text(
+                   Text(
+                     textAlign: TextAlign.center,
                     'If you submit code directly copy from chatgpt then mark will 0',
                     style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
                         fontSize: 16),
-                  ),
+                                     ),
                 ],
               ),
             ],
